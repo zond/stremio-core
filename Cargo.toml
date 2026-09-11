@@ -91,7 +91,7 @@ thiserror = "2"
 regex = "1.8"
 
 # local search and autocomplete functionallity
-localsearch = { version = "0.1.0", git = "https://github.com/Stremio/local-search", branch = "main" }
+localsearch = { version = "0.1.0", git = "https://github.com/Stremio/local-search", rev = "74fefe1da2fa17d2b4ef7e3e629da00f3946ee72" }
 
 # Number operations
 num = { version = "0.4.0", default-features = false }
