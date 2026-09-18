@@ -1,4 +1,4 @@
-> **This is [zond/stremio-core](https://github.com/zond/stremio-core), a fork kept for [xtremio](https://github.com/zond/xtremio).** The branch it builds from is `pinned`: upstream `development` at release 0.62.1 (`875332825`) with three changes on top, besides this note, and consumers depend on it by git `rev`, not by branch.
+> **This is [zond/stremio-core](https://github.com/zond/stremio-core), a fork kept for [xtremio](https://github.com/zond/xtremio).** The branch it builds from is `pinned`: upstream `development` at release 0.63.0 (`43427b96d`) with three changes on top, besides this note, and consumers depend on it by git `rev`, not by branch.
 >
 > - Keep a subtitle's addon-specific fields instead of letting serde drop them. This is upstream PR [#1045](https://github.com/Stremio/stremio-core/pull/1045), from the `subtitles-preserve-addon-fields` branch.
 > - Pin the `localsearch` dependency by rev rather than by branch.
