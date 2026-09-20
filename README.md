@@ -1,3 +1,12 @@
+> **This is [zond/stremio-core](https://github.com/zond/stremio-core), a fork kept for [xtremio](https://github.com/zond/xtremio).** The branch it builds from is `pinned`: upstream `development` at release 0.64.1 (`5e1e53c18`) with four changes on top, besides this note, and consumers depend on it by git `rev`, not by branch.
+>
+> - Keep a subtitle's addon-specific fields instead of letting serde drop them. This is upstream PR [#1045](https://github.com/Stremio/stremio-core/pull/1045), from the `subtitles-preserve-addon-fields` branch.
+> - Pin the `localsearch` dependency by rev rather than by branch.
+> - Relax `stremio-watched-bitfield`'s `flate2 = "1.0.*"` to `"1"`, so a dependency graph that also needs flate2 1.1 resolves.
+> - Skip the build workflow's `Deploy gh-pages` step outside `Stremio/stremio-core`; a fork's token cannot push there, and the step failed every build.
+>
+> The fork publishes nothing: no npm package, no docs site and no releases. Upstream's build workflow does run here, but the badges below are hard-coded to `Stremio/stremio-core`, so they report upstream's workflows, not this branch. Everything below is upstream's README, unchanged.
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Stremio/stremio-web/development/assets/images/stremio_symbol.png" width="90" alt="Stremio logo">
